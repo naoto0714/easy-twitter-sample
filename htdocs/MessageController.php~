@@ -1,0 +1,40 @@
+<?php
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * Description of MessageController
+ *
+ * @author naoto
+ */
+class MessageController extends BaseController {
+    
+    public function run(){
+        echo "hello";
+    }
+
+
+    //ログイン後のトップ画面
+    public function message_top(){
+        
+        
+        /*
+        //モデルよりデータの取得
+        $MessageModel = new MessageModel;
+        $message_info = $MessageModel->get_all_message();
+        
+        
+        //画面表示処理
+        $this->view->assign('message_info', $message_info);
+        //$this->view->assign('app_name', $_SESSION[_MEMBER_AUTHINFO]['last_name']);
+        $this->view->title = "490ers";
+        $this->file = 'message_top.tpl';
+        $this->view_display();
+         */
+    }
+}
+

@@ -1,0 +1,19 @@
+
+
+//--------------------
+// message table
+//--------------------
+
+drop table if exists message;
+create table message (
+  id mediumint unsigned not null auto_increment primary key,
+  user_id mediumint unsigned not null,
+  message varchar(490),
+  reg_date datetime
+);
+
+insert into message (user_id, message, reg_date) values (1, 'test', now());
+
+//--------------------
+// user table
+//--------------------
