@@ -17,6 +17,8 @@ easy-twitter-sample
 ###開発環境<br>
 ・Centos6.5(vagrant)<br>
 ・PHP5.5<br>
+
 ・Smarty<br>
 ・Mysql<br>
+・jquery(ajax)
 
